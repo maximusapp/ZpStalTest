@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linear_position"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"
+            android:orientation="horizontal"
+            android:background="@color/colorTableHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textStyle="bold"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                />
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Название должности"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="Зарплата"
+                />
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:text="Описание"
+                />
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_of_position_main"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/text_position_main"
+            android:visibility="gone"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Такой должности еще нет, создайте её через верхнее меню на главной странице"/>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

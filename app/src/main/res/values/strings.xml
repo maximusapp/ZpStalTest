@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ZpStalTest</string>
+
+    <string-array name="action">
+        <item>@string/male</item>
+        <item>@string/famale</item>
+    </string-array>
+
+    <string name="male">Male</string>
+    <string name="famale">Famale</string>
+
+</resources>

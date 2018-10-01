@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+   <LinearLayout
+       android:id="@+id/linear_main"
+       android:layout_marginTop="5dp"
+       android:layout_marginBottom="2dp"
+       android:orientation="horizontal"
+       android:background="@color/colorTableHeader"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="5dp"
+       android:layout_marginLeft="5dp"
+       android:layout_marginRight="5dp"
+       android:layout_marginEnd="5dp"
+       android:visibility="visible"
+       >
+
+       <TextView
+           android:layout_width="40dp"
+           android:layout_height="wrap_content"
+           android:text="ID"
+           android:textStyle="bold"
+           android:layout_marginStart="5dp"
+           android:layout_marginLeft="5dp"
+           />
+
+       <TextView
+           android:layout_width="170dp"
+           android:layout_height="wrap_content"
+           android:textStyle="bold"
+           android:text="FIO"
+           />
+
+       <TextView
+           android:textStyle="bold"
+           android:layout_width="80dp"
+           android:layout_height="wrap_content"
+           android:text="DateBirth"
+           />
+
+       <TextView
+           android:textStyle="bold"
+           android:layout_width="70dp"
+           android:layout_height="wrap_content"
+           android:text="Gender"
+           android:layout_marginStart="5dp"
+           android:layout_marginLeft="5dp"
+           />
+
+       <ImageView
+           android:id="@+id/sort_gender"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="3dp"
+           app:srcCompat="@android:drawable/arrow_down_float" />
+
+       <TextView
+           android:textStyle="bold"
+           android:layout_width="70dp"
+           android:layout_height="wrap_content"
+           android:text="Id Отд"
+           android:layout_marginStart="5dp"
+           android:layout_marginLeft="5dp"
+           />
+
+       <TextView
+           android:textStyle="bold"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Id Должн"
+           android:layout_marginStart="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           />
+
+   </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_of_personal_main"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp">
+    </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/text_main_screen"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:text="Начните создавать персонал, через верхнее меню"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+</HorizontalScrollView>

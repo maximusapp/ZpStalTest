@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "529415390792",
+    "firebase_url": "https://zpstalbaza.firebaseio.com",
+    "project_id": "zpstalbaza",
+    "storage_bucket": "zpstalbaza.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529415390792:android:c38f1487eba9b2cd",
+        "android_client_info": {
+          "package_name": "ZpStal.Baza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529415390792-oje09g8l1lamibrorpf72b1de075ldue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjZ9Cpo2jeqH4vvI1WB84hlX-usWwYghI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
